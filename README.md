@@ -8,9 +8,23 @@ A plugin for Godot to customize android's system bars (status and navigation bar
 ## How to use
 After adding the addon to your project and enabling it you can:
 ### Enable transparency:
-```AndroidSystemBarControl.toggle_system_bars_transparency(true, true) # in dark mode (white icons)```
-```AndroidSystemBarControl.toggle_system_bars_transparency(true, false) # in light mode (black icons)```
+#### in dark mode (white icons)
+```
+AndroidSystemBarControl.toggle_system_bars_transparency(true, true) 
+```
+
+#### in light mode (black icons)
+```
+AndroidSystemBarControl.toggle_system_bars_transparency(true, false) 
+```
 
 ### Disable transparency
-```AndroidSystemBarControl.toggle_system_bars_transparency(false, true) # in dark mode (white icons)```
-```AndroidSystemBarControl.toggle_system_bars_transparency(false, false) # in light mode (black icons)```
+#### in dark mode (white icons)
+```
+AndroidSystemBarControl.toggle_system_bars_transparency(false, true) 
+```
+
+#### in light mode (black icons)
+```
+AndroidSystemBarControl.toggle_system_bars_transparency(false, false)
+```
